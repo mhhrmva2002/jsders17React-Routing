@@ -29,7 +29,7 @@ export default function ButtonAppBar() {
       </Typography>
 
       <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}>
-        <Link to="/admin/employees">AddEmployee</Link>{" "}
+        <Link to="/admin/addemployee">AddEmployee</Link>{" "}
       </Typography>
      
       <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}>
@@ -37,7 +37,7 @@ export default function ButtonAppBar() {
       </Typography>
 
       <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}>
-        <Link to="/admin/employees">EditEmployee</Link>{" "}
+        <Link to="/admin/editemployee">EditEmployee</Link>{" "}
       </Typography>
 
         </Toolbar>

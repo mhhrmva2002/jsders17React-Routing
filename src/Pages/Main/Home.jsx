@@ -2,7 +2,9 @@ import React from 'react'
 
 const Home = () => {
   return (
-    <div>Home</div>
+   <>
+    <h1 style={{display:"flex", justifyContent:"center"}}>This is Home Page</h1>
+   </>
   )
 }
 

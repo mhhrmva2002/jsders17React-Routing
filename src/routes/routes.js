@@ -1,6 +1,8 @@
 import AddEmployee from '../Pages/Admin/AddEmployee'
 import AdminRoot from '../Pages/Admin/AdminRoot'
 import EditEmployee from '../Pages/Admin/EditEmployee'
+import Employe from '../Pages/Admin/Employees'
+import AdminEmployeeDetail from '../Pages/Admin/EmployeeDetail'
 import EmployeeDetail from '../Pages/Main/EmployeeDetail'
 import Employees from '../Pages/Main/Employees'
 import Home from '../Pages/Main/Home'
@@ -39,7 +41,7 @@ export const ROUTES=[
         },
         {
             path:'employees',
-            element:<Employees/>,
+            element:<Employe/>,
             },
             {
                 path:'addemployee',
@@ -53,6 +55,10 @@ export const ROUTES=[
                 path:'editemployee',
                 element:<EditEmployee/>,
             },
+            {
+                path:'employees/:id',
+                element:<AdminEmployeeDetail/>,
+            }
     ]
 }
 ]
