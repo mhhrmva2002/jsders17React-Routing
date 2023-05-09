@@ -22,24 +22,22 @@ export default function ButtonAppBar() {
           >
            
           </IconButton>
+   
+
       <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}>
-        <Link to="/">Home</Link>{" "}
+        <Link to="/admin/employees">Employees</Link>{" "}
       </Typography>
 
       <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}>
-        <Link to="/employees">Employees</Link>{" "}
-      </Typography>
-      
-      <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}>
-        <Link to="/employees">AddEmployee</Link>{" "}
+        <Link to="/admin/employees">AddEmployee</Link>{" "}
       </Typography>
      
       <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}>
-        <Link to="/employeeDetail">EmployeeDetail</Link>{" "}
+        <Link to="/admin/employeeDetail">EmployeeDetail</Link>{" "}
       </Typography>
 
       <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}>
-        <Link to="/employees">EditEmployee</Link>{" "}
+        <Link to="/admin/employees">EditEmployee</Link>{" "}
       </Typography>
 
         </Toolbar>
