@@ -1,0 +1,98 @@
+{
+    "students": [
+        {
+            "id": 1,
+            "name": "John",
+            "surname": "Johns",
+            "age": 20,
+            "salary": 200,
+            "position": "waiter"
+        },
+        {
+            "id": 1,
+            "name": "Yazgul",
+            "surname": "Mammadli",
+            "age": 20,
+            "salary": 1000,
+            "position": "Front-end developer"
+        },
+        {
+            "id": 1,
+            "name": "Ayshen",
+            "surname": "Johns",
+            "age": 20,
+            "salary": 200,
+            "position": "student"
+        },
+        {
+            "name": "John",
+            "surname": "Doe",
+            "age": 25,
+            "salary": 50000,
+            "position": "Software Developer"
+        },
+        {
+            "name": "Jane",
+            "surname": "Doe",
+            "age": 30,
+            "salary": 70000,
+            "position": "Senior Software Developer"
+        },
+        {
+            "name": "Bob",
+            "surname": "Smith",
+            "age": 35,
+            "salary": 80000,
+            "position": "Project Manager"
+        },
+        {
+            "name": "Alice",
+            "surname": "Jones",
+            "age": 28,
+            "salary": 55000,
+            "position": "Software Developer"
+        },
+        {
+            "name": "Peter",
+            "surname": "Parker",
+            "age": 26,
+            "salary": 60000,
+            "position": "Web Developer"
+        },
+        {
+            "name": "Mary",
+            "surname": "Watson",
+            "age": 32,
+            "salary": 90000,
+            "position": "Data Analyst"
+        },
+        {
+            "name": "Tom",
+            "surname": "Lee",
+            "age": 40,
+            "salary": 100000,
+            "position": "Chief Technical Officer"
+        },
+        {
+            "name": "Sara",
+            "surname": "Kim",
+            "age": 29,
+            "salary": 65000,
+            "position": "UI/UX Designer"
+        },
+        {
+            "name": "David",
+            "surname": "Brown",
+            "age": 31,
+            "salary": 75000,
+            "position": "Software Architect"
+        },
+        {
+            "name": "Emily",
+            "surname": "Taylor",
+            "age": 27,
+            "salary": 60000,
+            "position": "Software Tester"
+        }
+    ]
+}
