@@ -1,108 +1,94 @@
 {
-    "students": [
-        {
-            "id": 1,
-            "name": "John",
-            "surname": "Johns",
-            "age": 20,
-            "salary": 200,
-            "position": "waiter"
-        },
-        {
-            "id": 2,
-            "name": "Yazgul",
-            "surname": "Mammadli",
-            "age": 20,
-            "salary": 1000,
-            "position": "Front-end developer"
-        },
-        {
-            "id": 3,
-            "name": "Ayshen",
-            "surname": "Johns",
-            "age": 20,
-            "salary": 200,
-            "position": "student"
-        },
-        {
-            "id": 4,
-            "name": "John",
-            "surname": "Doe",
-            "age": 25,
-            "salary": 50000,
-            "position": "Software Developer"
-        },
-        {
-            "id": 5,
-            "name": "Jane",
-            "surname": "Doe",
-            "age": 30,
-            "salary": 70000,
-            "position": "Senior Software Developer"
-        },
-        {
-            "id": 6,
-            "name": "Bob",
-            "surname": "Smith",
-            "age": 35,
-            "salary": 80000,
-            "position": "Project Manager"
-        },
-        {
-            "id": 7,
-            "name": "Alice",
-            "surname": "Jones",
-            "age": 28,
-            "salary": 55000,
-            "position": "Software Developer"
-        },
-        {
-             "id": 8,
-            "name": "Peter",
-            "surname": "Parker",
-            "age": 26,
-            "salary": 60000,
-            "position": "Web Developer"
-        },
-        {
-             "id": 9,
-            "name": "Mary",
-            "surname": "Watson",
-            "age": 32,
-            "salary": 90000,
-            "position": "Data Analyst"
-        },
-        {
-             "id": 10,
-            "name": "Tom",
-            "surname": "Lee",
-            "age": 40,
-            "salary": 100000,
-            "position": "Chief Technical Officer"
-        },
-        {
-             "id":11 ,
-            "name": "Sara",
-            "surname": "Kim",
-            "age": 29,
-            "salary": 65000,
-            "position": "UI/UX Designer"
-        },
-        {
-              "id":12 ,
-            "name": "David",
-            "surname": "Brown",
-            "age": 31,
-            "salary": 75000,
-            "position": "Software Architect"
-        },
-        {
-              "id":13 ,
-            "name": "Emily",
-            "surname": "Taylor",
-            "age": 27,
-            "salary": 60000,
-            "position": "Software Tester"
-        }
-    ]
+  "employees": [
+    {
+      "id": 2,
+      "name": "Yazgul",
+      "surname": "Mammadli",
+      "age": 20,
+      "salary": 1000,
+      "position": "Front-end developer"
+    },
+    {
+      "id": 5,
+      "name": "Jane",
+      "surname": "Doe",
+      "age": 30,
+      "salary": 70000,
+      "position": "Senior Software Developer"
+    },
+    {
+      "id": 7,
+      "name": "Alice",
+      "surname": "Jones",
+      "age": 28,
+      "salary": 55000,
+      "position": "Software Developer"
+    },
+    {
+      "id": 8,
+      "name": "Peter",
+      "surname": "Parker",
+      "age": 26,
+      "salary": 60000,
+      "position": "Web Developer"
+    },
+    {
+      "id": 9,
+      "name": "Mary",
+      "surname": "Watson",
+      "age": 32,
+      "salary": 90000,
+      "position": "Data Analyst"
+    },
+    {
+      "id": 10,
+      "name": "Tom",
+      "surname": "Lee",
+      "age": 40,
+      "salary": 100000,
+      "position": "Chief Technical Officer"
+    },
+    {
+      "id": 11,
+      "name": "Sara",
+      "surname": "Kim",
+      "age": 29,
+      "salary": 65000,
+      "position": "UI/UX Designer"
+    },
+    {
+      "id": 12,
+      "name": "David",
+      "surname": "Brown",
+      "age": 31,
+      "salary": 75000,
+      "position": "Software Architect"
+    },
+    {
+      "id": 13,
+      "name": "Emily",
+      "surname": "Taylor",
+      "age": 27,
+      "salary": 60000,
+      "position": "Software Tester"
+    },
+    {
+      "name": "tfygy",
+      "surname": "ftgbh",
+      "age": "12",
+      "id": "ab7de515-85d7-4f0f-8fa6-a74169d6109b"
+    },
+    {
+      "name": "tfygy",
+      "surname": "ftgbh",
+      "age": "12",
+      "id": "39e9c2d9-936e-41fe-814c-3d6ff747824d"
+    },
+    {
+      "age": "33",
+      "surname": "vvhgv",
+      "name": "frytf",
+      "id": "6aa06849-48fd-487a-b20e-99edb4baec75"
+    }
+  ]
 }

@@ -1,25 +1,29 @@
 import React, { useEffect, useState } from "react";
-import { getAllStudents } from "../../api/httprequests";
+import { deleteemployeesById, getAllemployees } from "../../api/httprequests";
 import { Link } from "react-router-dom";
 
 const Employees = () => {
-  //studentleri get ede bilmek ucub state yaradiriq
-  let [students, setSudents] = useState([]);
+  //Employeeleri get ede bilmek ucub state yaradiriq
+  let [employees, setEmployee] = useState([]);
   useEffect(() => {
-    getAllStudents().then((data) => {
+    getAllemployees().then((data) => {
       console.log(data);
-      setSudents(data);
+      setEmployee(data);
     });
   }, []);
   return (
     <>
       <ul>
-        {students &&
-          students.map((student) => {
+        {employees &&
+          employees.map((employee) => {
             return (
-              <li key={student.id}>
-                 <Link to={`${student.id}`}>{student.name}</Link> ,{student.surname}    
-                 <button>delete</button>
+              <li key={employee.id}>
+                 <Link to={`${employee.id}`}>{employee.name}</Link> ,{employee.surname}    
+                 <button onClick={()=>{
+                  deleteemployeesById(employee.id)
+                  let filteredEmployees=employees.filter((item)=>item.id!==employee.id);
+                  setEmployee(filteredEmployees)
+                 }}>delete</button>
                  <button>edit</button>
               </li>
             );
